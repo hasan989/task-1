@@ -2,9 +2,14 @@
 .menu{
 background-color: #55E6C1 ;
 transition: all 2s;
-
-
 }
+.st{
+	font-size: 30px ;
+	opacity: 0.7;
+	font-style: initial ;
+	
+}
+
 
 .imga{
 	height: 100vh;
@@ -13,23 +18,23 @@ transition: all 2s;
 	font-size: 18px ;	
 	transition-delay: 0.15s ;
 }
-#about {
+#school {
 	padding: 110px 0;
 	background: #ffffff;
 	transition: all 2s;
 	margin-bottom: 80px;
 }
-#about h3 {
+#school h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#about h2 {
+#school h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
-#about h2::after {
+#school h2::after {
 	position: absolute;
 	content: "";
 	background-color: #7dce94;
@@ -38,14 +43,14 @@ transition: all 2s;
 	bottom: -1px;
 	left: 0;
 }
-#about .about-text li {
+#school .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 	
 }
-#about .about-text li:before {
+#school .about-text li:before {
    
 	color: #1f386e;
 	font-size: 11px;
@@ -53,7 +58,7 @@ transition: all 2s;
 	padding-right: 8px;
 }
 
-#about p {
+#school p {
 	line-height: 24px;
 	margin: 30px 0;
 }
@@ -65,13 +70,13 @@ transition: all 2s;
     background-color: #7dce94;
 	border-radius: .3rem; }
 
-	.bds h2 {
+	.serv h2 {
 		position: relative;
 		margin-bottom: 15px;
 		padding-bottom: 15px;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 	}
-	.bds h2::after {
+	.serv h2::after {
 		position: absolute;
 		content: "";
 		background-color: #7dce94;
@@ -82,13 +87,12 @@ transition: all 2s;
 	}
 	.myfooter{
 	text-align: center ;
-	
-	padding-top: 40px ;
-	padding-bottom: 30px ;
+	padding-bottom: 3px ;
 	background-color: #55E6C1 ;
 	}
 	.myfooter li{
 		margin : 10px ;
+		margin-bottom: 0px ;
 	}
 	.myfooter li>:hover{
 		transition-delay: 0.15s ;
@@ -111,3 +115,4 @@ transition: all 2s;
 	.service-desc{
 		padding-top: 8px ;
 	}
+	
